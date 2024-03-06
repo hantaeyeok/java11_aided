@@ -1,0 +1,10 @@
+package sec1;
+//예외(Exception) 처리
+public class ExceptionExam1 {
+	public static void main(String[] args) {
+		String data = null;
+		System.out.println(data);
+		
+		
+	}
+}

@@ -1,0 +1,24 @@
+package sec1;
+class Outer3 {//외부 클래스
+	//익명의 내부 클래스 선언시에는  Runnable 로 구현해야한다.
+	Runnable getRunnable(int i ) {	
+		//Runnable 은 인터페이스 이므로 인스턴스 생성시 기본 메소드인 run() 메소드의 구현 내용을 기술하여 생성해야함.
+		
+		int um = 100;
+		
+		return new Runnalbe() {
+			
+		}
+		
+	}
+	
+	
+}
+public class AnoymousInnerExam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

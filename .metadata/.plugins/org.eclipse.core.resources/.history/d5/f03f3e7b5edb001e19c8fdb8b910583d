@@ -1,0 +1,26 @@
+package sec1;
+class Outer2 {		//디폴트 값이 같은 패키지안에선  같기 때문에 Outer2로 선언	//외부 클래스
+	private int num = 10;
+	private static int sNum =20;
+
+	static class Inner {					//정적 내부 클래수
+		int inNum = 1000;
+		static int sInNum =2000;
+		
+		void inMethod() {
+			System.out.println("내부 클래스의 인스턴스 변수 : inNum"+inNum);
+			System.out.println("내부 클래스으 정적 맴버 변수 : sInNum"+sInNum);
+		}
+	}
+
+
+}
+
+public class StaticinnerClassExam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
