@@ -59,6 +59,25 @@ public class PatternExam2 {
 				System.out.println(post[i]);
 			}
 		}
+		
+		//비밀번호 패턴 
+		//() 반드시 포함
+		//? 한문자
+		//=. 이상
+		//* 뒤에 나오는 조건으로
+		//(?=.*[a-z])
+		String[] pw = {"abcdA1234","A123a","1234","ABCD!1234","Abc!432","ASDFdaf654"};
+		Pattern p6 = Pattern.compile("(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#%^&_]).{4,10}$");
+		for(int i = 0;i<pw.length;i++) {
+			Matcher m5 = p6.matcher(pw[i]);
+			if(m5.matches()) {
+				System.out.println("영문 대문자, 소문자, 특수문자, 숫자가 모두 포함된 맞는 비밀번호입니다.");
+				System.out.println(pw[i]);
+			}
+		}
+		
+		
+		
 	}
 
 }
