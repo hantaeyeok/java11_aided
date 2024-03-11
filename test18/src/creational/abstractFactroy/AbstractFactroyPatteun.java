@@ -1,6 +1,7 @@
 package creational.abstractFactroy;
 //AbstractFactroy Pattern : 추상클래스에서 자식 추상 클래스로 자식 추상 클래스는 구현 클래스로 상속받아 
 //처리 되게 하고, final 모드 구조적으로 객체를 생성하여 활용된다는 측면에서 추상화 공장(Abstract Factory)이라고 한다.
+//그러므로 , Abstarct Factory pattern은 관련 있는 객체들을 모아서 팩토리로 만들고 조건에 따라 팩토리 중에서 선택하게 하는 패턴
 public class AbstractFactroyPatteun {
 
 	public static void main(String[] args) {
