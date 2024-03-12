@@ -34,7 +34,7 @@ public class Test1 {
 		
 			if(ipInfoList.get(i).getIp().equals(ip)) {
 //					System.out.println(ipInfoList.get(i).getUser());
-					System.out.println(ipInfoList.get(i).toString());
+					System.out.println(ipInfoList.get(i).getUser());
 					break;
 					//일치하는 ip 사용자가 없는 경우의 메시지 출력이 없음
 			} else {

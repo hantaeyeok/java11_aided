@@ -28,11 +28,11 @@ public class Test1_1 {
 			
 			for(int i = 0; i <ipInfoList.size();i++) {
 			if(ipInfoList.get(i).getIp().equals(ip)) {
-				System.out.println(ipInfoList.get(i).toString());
+				System.out.println(ipInfoList.get(i));
 				break;
 			}
 			
-			
+			System.out.println("노일치");
 		
 			}
 		
