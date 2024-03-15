@@ -1,4 +1,4 @@
-package org.kh.databace;
+package org.kh.database;
 
 public class Student {
 	private int no;

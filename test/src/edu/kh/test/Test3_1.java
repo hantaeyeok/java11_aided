@@ -3,10 +3,11 @@ package edu.kh.test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Test3 {
-
+public class Test3_1 {
 	public static void main(String[] args) {
+		
 		List<Integer> List = new ArrayList<>();	//ArrayList로 받아야함 : 이유 : 
+		
 		List.add(4);
 		List.add(-5);
 		List.add(0);
@@ -26,11 +27,11 @@ public class Test3 {
 				continue;
 			}
 			
-			for(int i = 0; i<Math.abs(num);i++) {	//배열의 시작을 0부터해야함
+			//int Math.abs(정수) : 정수의 절대값을 반환
+			for(int i = 1; i<=Math.abs(num);i++) {	//배열의 시작을 0부터해야함
 				System.out.print(ch);			//println 이 아니라 print로 써야함
 			}
 			System.out.println();
 		}
 	}
-
 }

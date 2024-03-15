@@ -21,7 +21,7 @@ public class Test1 {
 //방법1) IPInfo클래스에 매개변수 ip 만 받는 생성자를 추가한다.
 //방법2) IPInfo 객체 생성시 ip와 user의 매개변수 값을 모두 넣는다.	
 //
-		ipInfoList.add(new IPInfo("212.133.7.8","hty"));
+		ipInfoList.add(new IPInfo("212.133.7.8"));
 		ipInfoList.add(new IPInfo("177.233.111.222","고길순"));
 		
 		System.out.print("ip 입력 : ");

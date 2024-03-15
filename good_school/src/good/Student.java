@@ -12,7 +12,7 @@ public class Student {
 		this.no = no;
 		this.name = name;
 		this.essense = essense;
-		this.subject = subject;
+	this.subject = subject;
 	}
 	public int getNo() {
 		return no;

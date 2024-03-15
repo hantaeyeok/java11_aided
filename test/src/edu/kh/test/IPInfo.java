@@ -5,7 +5,9 @@ public class IPInfo {
 	private String user;
 	
 	public IPInfo() {}
-	
+	public IPInfo(String ip){
+		this.ip =ip;
+	}
 	public IPInfo(String ip, String user) {
 		super();
 		this.ip = ip;

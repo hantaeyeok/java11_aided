@@ -1,4 +1,4 @@
-package org.kh.databace;
+package org.kh.database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
